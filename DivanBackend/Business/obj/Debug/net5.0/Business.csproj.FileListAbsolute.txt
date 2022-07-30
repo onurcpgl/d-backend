@@ -1,0 +1,57 @@
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.pdb
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Entities.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Business\obj\Debug\net5.0\Business.pdb

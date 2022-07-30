@@ -1,0 +1,36 @@
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\Onur\Desktop\Divan\Divan BACK-END\DivanBackend\DivanBackend\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
