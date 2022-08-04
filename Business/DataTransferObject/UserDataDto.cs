@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.Concrete;
 
 namespace Business.DataTransferObject
 {
-    public class UserGroupDto
+    public class UserDataDto
     {
-        public string Name { get; set; }
-        public List<DomainDto> Domains { get; set; }
+        public string Username;
+        public UserGroupDto UserGroup;
     }
 }

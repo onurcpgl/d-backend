@@ -6,6 +6,7 @@ using AutoMapper;
 using Business.Abstract;
 using Business.Concrete;
 using DataAccess.Abstract;
+using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.EntityFramework.Contexts;
 using Microsoft.AspNetCore.Builder;
@@ -43,12 +44,14 @@ namespace WebAPI
             services.AddControllers();
             services.AddDbContext<DivanDataContext>(o => o.UseNpgsql(Configuration.GetConnectionString("DivanVpnDb"), b => b.MigrationsAssembly("WebAPI")));
             services.AddScoped<IUserGroupDal, EfUserGroupDal>();
+            services.AddScoped<IUserDal, EfUserDal>();
             services.AddScoped<IUserGroupService, UserGroupManager>();
             services.AddScoped<IDomainService, DomainManager>();
             services.AddScoped<IAnnouncementsService, AnnouncementsManager>();
+            services.AddScoped<IUserService, UserManager>();
             services.AddScoped<IDomainDal, EfDomainDal>();
             services.AddScoped<IAnnouncementsDal, EfAnnouncementsDal>();
-            //services.AddAutoMapper(typeof(UserMapper));
+            services.AddAutoMapper(typeof(UserMapper));
 
         }
 

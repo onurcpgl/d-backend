@@ -9,10 +9,10 @@ namespace Business.Abstract
 {
     public interface IAnnouncementsService
     {
-        Announcements GetById(int announcementsId);
-        List<Announcements> GetList();
-        void Add(Announcements announcements);
-        void Delete(Announcements announcements);
-        void Update(Announcements announcements);
+        Announcement GetById(int announcementsId);
+        List<Announcement> GetList();
+        void Add(Announcement announcements);
+        void Delete(Announcement announcements);
+        void Update(Announcement announcements);
     }
 }

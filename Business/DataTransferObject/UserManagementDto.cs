@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Business.DataTransferObject
 {
-    public class UserGroupDto
+    public class UserManagementDto
     {
-        public string Name { get; set; }
-        public List<DomainDto> Domains { get; set; }
+        public int userId;
+        public int userGroupId;
     }
 }

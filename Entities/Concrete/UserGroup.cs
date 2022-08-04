@@ -11,14 +11,14 @@ using Core.Entities;
 namespace Entities.Concrete
 {
     public class UserGroup : IEntity
-    {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+    { 
+       public int Id { get; set; }
 
         public string Name { get; set; }
 
-        
         public ICollection<Domain> Domains{ get; set; }
+        public User User { get; set; }
+
+       
     }
 }

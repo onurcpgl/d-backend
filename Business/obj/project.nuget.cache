@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gWeWqIF7Sb0WPdC3a+guC9rdJgj/ascs/05M7ae9vq0qNrgQODz0xx2Awu/1QxouDeCdRlyFoCd2BZAjc3IrZA==",
+  "dgSpecHash": "qnImkOKqnA3r7wEPyWSs8PItW21InwkYKdIIuPDXa7iLBFUarPoejaIjxJZ7f/4BXNANkUlvkiPkB+ze+Y9qtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Onur\\Desktop\\Divan\\Divan BACK-END\\DivanBackend\\DivanBackend\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Onur\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Onur\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Onur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Onur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",

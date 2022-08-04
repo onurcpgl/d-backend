@@ -10,10 +10,11 @@ namespace WebAPI.Helper
 {
     public class UserMapper : Profile
     {
-        //public UserMapper()
-        //{
-        //    CreateMap<UserSave, UserGroup>().ForMember(dest => dest.Name, src => src.MapFrom(s => s.name));
-        //    CreateMap<UserSave, UserGroup>().ForMember(dest => dest.Surname, src => src.MapFrom(s => s.surname));
-        //}
+        public UserMapper()
+        {
+            CreateMap<UserGroupDto, UserGroup>().ReverseMap();
+            CreateMap<DomainDto, Domain>().ReverseMap();
+            CreateMap<UserDataDto, User>().ReverseMap();
+        }
     }
 }

@@ -17,27 +17,27 @@ namespace Business.Concrete
         {
             _announcementsDal = announcementsDal;
         }
-        public void Add(Announcements announcements)
+        public void Add(Announcement announcements)
         {
             _announcementsDal.Add(announcements);
         }
 
-        public void Delete(Announcements announcements)
+        public void Delete(Announcement announcements)
         {
             _announcementsDal.Delete(announcements);
         }
 
-        public Announcements GetById(int announcementsId)
+        public Announcement GetById(int announcementsId)
         {
             return _announcementsDal.Get(a => a.Id == announcementsId);
         }
 
-        public List<Announcements> GetList()
+        public List<Announcement> GetList()
         {
             return _announcementsDal.GetList().ToList();
         }
 
-        public void Update(Announcements announcements)
+        public void Update(Announcement announcements)
         {
             _announcementsDal.Update(announcements);
         }

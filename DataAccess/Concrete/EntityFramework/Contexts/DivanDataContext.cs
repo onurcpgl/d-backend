@@ -18,12 +18,25 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            modelBuilder.Entity<User>().HasKey(x => x.Id);
+            modelBuilder.Entity<UserGroup>().HasKey(x => x.Id);
+            modelBuilder.Entity<Announcement>().HasKey(x => x.Id);
+            modelBuilder.Entity<Domain>().HasKey(x => x.Id);
+
             modelBuilder.Entity<UserGroup>().HasMany(x => x.Domains).WithMany(y => y.UserGroups).UsingEntity(x => x.ToTable("UserGroupDomains"));
+
+            modelBuilder.Entity<UserGroup>()
+                .HasOne(ug => ug.User)
+                .WithOne(u => u.UserGroup)
+                .HasForeignKey<User>(u => u.UserGroupId);
+
+            
         }
 
         public DbSet<UserGroup> UserGroups { get; set; }
         public DbSet<Domain> Domains { get; set; }
-        public DbSet<Announcements> Announcements { get; set; }
+        public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 
     
