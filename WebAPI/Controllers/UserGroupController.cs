@@ -32,7 +32,11 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-       
+        [HttpGet("{userGroupId}")]
+        public IActionResult getUsersIt(int userGroupId)
+        {
+            return Ok(_userGroupService.getUserGroupById(userGroupId));
+        }
 
 
 
@@ -40,7 +44,10 @@ namespace WebAPI.Controllers
 
 
 
-      
+
+
+
+
 
 
 

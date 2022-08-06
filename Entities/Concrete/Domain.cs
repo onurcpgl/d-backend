@@ -18,7 +18,7 @@ namespace Entities.Concrete
         
         public String Name { get; set; }
 
-        [JsonIgnore]
+
         public ICollection<UserGroup> UserGroups { get; set; }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Business.DataTransferObject;
+using Entities.Concrete;
 
 namespace Business.Abstract
 {
@@ -12,5 +13,11 @@ namespace Business.Abstract
         void update(UserManagementDto userManagementDto);
 
         UserDataDto getUserById(int userId);
+
+        List<UserDataDto> getAllUsers();
+
+       
+
+
     }
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using Business.Abstract;
+using Business.DataTransferObject;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -11,35 +13,45 @@ namespace Business.Concrete
 {
     public class UserGroupManager : IUserGroupService
     {
-        private IUserGroupDal _userDal;
+        private IUserGroupDal _userGroupDal;
+        private IUserDal _userDal;
+        private IMapper _mapper;
 
-        public UserGroupManager(IUserGroupDal userDal)
+        public UserGroupManager(IUserGroupDal userGroupDal,IMapper mapper,IUserDal userDal)
         {
+            _userGroupDal = userGroupDal;
             _userDal = userDal;
+            _mapper = mapper;
         }
         public void Add(UserGroup entity)
         {
-            _userDal.Add(entity);
+            _userGroupDal.Add(entity);
         }
 
         public void Delete(UserGroup user)
         {
-            _userDal.Delete(user);
+            _userGroupDal.Delete(user);
         }
 
         public UserGroup GetById(int userId)
         {
-            return _userDal.Get(u => u.Id == userId);
+            return _userGroupDal.Get(u => u.Id == userId);
         }
 
         public List<UserGroup> GetList()
         {
-            return _userDal.GetList(null,x=>x.Domains).ToList();
+            return _userGroupDal.GetList(null,x=>x.Domains).ToList();
         }
 
+        public List<UserDataDto> getUserGroupById(int userGroupId)
+        {
+            List<User> itUserGroup = _userDal.GetList(x => x.UserGroup.Id == userGroupId, x => x.UserGroup, x => x.UserGroup.Domains).ToList();
+            return _mapper.Map<List<UserDataDto>>(itUserGroup);
+        }
+        
         public void Update(UserGroup user)
         {
-            _userDal.Update(user);
+            _userGroupDal.Update(user);
         }
     }
 }

@@ -26,11 +26,17 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
             modelBuilder.Entity<UserGroup>().HasMany(x => x.Domains).WithMany(y => y.UserGroups).UsingEntity(x => x.ToTable("UserGroupDomains"));
 
             modelBuilder.Entity<UserGroup>()
-                .HasOne(ug => ug.User)
+                .HasMany(ug => ug.User)
                 .WithOne(u => u.UserGroup)
-                .HasForeignKey<User>(u => u.UserGroupId);
+                .HasForeignKey(u => u.UserGroupId);
 
-            
+            modelBuilder.Entity<Announcement>()
+                 .HasOne(a => a.User)
+                 .WithMany(u => u.Announcements)
+                 .HasForeignKey(u => u.UserId);
+
+
+
         }
 
         public DbSet<UserGroup> UserGroups { get; set; }

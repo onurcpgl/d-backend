@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Core.Entities;
 
@@ -20,5 +21,9 @@ namespace Entities.Concrete
        
         public int UserGroupId { get; set; }
         public UserGroup UserGroup { get; set; }
+
+        public ICollection<Announcement> Announcements { get; set; }
+
+
     }
 }

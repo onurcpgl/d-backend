@@ -12,12 +12,10 @@ namespace Entities.Concrete
 {
     public class UserGroup : IEntity
     { 
-       public int Id { get; set; }
-
+        public int Id { get; set; }
         public string Name { get; set; }
-
         public ICollection<Domain> Domains{ get; set; }
-        public User User { get; set; }
+        public ICollection<User> User { get; set; }
 
        
     }

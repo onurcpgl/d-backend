@@ -3,15 +3,17 @@ using System;
 using DataAccess.Concrete.EntityFramework.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace WebAPI.Migrations
 {
     [DbContext(typeof(DivanDataContext))]
-    partial class DivanDataContextModelSnapshot : ModelSnapshot
+    [Migration("20220805113226_added-m2-o3")]
+    partial class addedm2o3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,12 +52,7 @@ namespace WebAPI.Migrations
                     b.Property<string>("Title")
                         .HasColumnType("text");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Announcements");
                 });
@@ -131,17 +128,6 @@ namespace WebAPI.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Entities.Concrete.Announcement", b =>
-                {
-                    b.HasOne("Entities.Concrete.User", "User")
-                        .WithMany("Announcements")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Entities.Concrete.User", b =>
                 {
                     b.HasOne("Entities.Concrete.UserGroup", "UserGroup")
@@ -151,11 +137,6 @@ namespace WebAPI.Migrations
                         .IsRequired();
 
                     b.Navigation("UserGroup");
-                });
-
-            modelBuilder.Entity("Entities.Concrete.User", b =>
-                {
-                    b.Navigation("Announcements");
                 });
 
             modelBuilder.Entity("Entities.Concrete.UserGroup", b =>

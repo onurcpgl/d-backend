@@ -51,7 +51,12 @@ namespace WebAPI
             services.AddScoped<IUserService, UserManager>();
             services.AddScoped<IDomainDal, EfDomainDal>();
             services.AddScoped<IAnnouncementsDal, EfAnnouncementsDal>();
-            services.AddAutoMapper(typeof(UserMapper));
+            services.AddAutoMapper(typeof(Helper.AutoMapper));
+            services.AddCors(options =>
+             options.AddDefaultPolicy(builder =>
+             builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
+
+
 
         }
 
@@ -72,6 +77,7 @@ namespace WebAPI
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseCors();
             app.UseRouting();
 
             app.UseAuthorization();

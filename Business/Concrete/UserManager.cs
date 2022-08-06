@@ -24,11 +24,19 @@ namespace Business.Concrete
             _mapper = mapper;
         }
 
+        public List<UserDataDto> getAllUsers()
+        {
+            List<User> userList = _userDal.GetList(null,x => x.UserGroup,x => x.UserGroup.Domains).ToList();
+            return _mapper.Map<List<UserDataDto>>(userList);
+        }
+
         public UserDataDto getUserById(int userId)
         {
             User user = _userDal.GetList(x => x.Id == userId,y=>y.UserGroup,y=>y.UserGroup.Domains).FirstOrDefault();
             return  _mapper.Map<UserDataDto>(user);
         }
+
+        
 
         public void update(UserManagementDto userManagementDto)
         {
@@ -36,5 +44,7 @@ namespace Business.Concrete
             user.UserGroupId = userManagementDto.userGroupId;
             _userDal.Update(user); 
         }
+
+
     }
 }

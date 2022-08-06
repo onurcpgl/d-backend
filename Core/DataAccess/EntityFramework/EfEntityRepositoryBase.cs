@@ -60,8 +60,7 @@ namespace Core.DataAccess.EntityFramework
                     query = query.Include(includeProperty);
                 }
             }
-            return  query.ToList(); 
-            
+            return  query.ToList();  
         }
 
         public void Update(TEntity entity)

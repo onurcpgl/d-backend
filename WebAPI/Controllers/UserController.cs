@@ -30,6 +30,14 @@ namespace WebAPI.Controllers
             return Ok(_userService.getUserById(userId));
         }
 
+        [HttpGet("users")]
+        public IActionResult getAllUsers()
+        {
+            return Ok(_userService.getAllUsers());
+        }
+
+       
+
 
 
 
