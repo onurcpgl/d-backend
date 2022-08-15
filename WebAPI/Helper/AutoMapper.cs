@@ -17,6 +17,7 @@ namespace WebAPI.Helper
             CreateMap<UserDataDto, User>().ReverseMap();
             CreateMap<Announcement,AnnouncementDto>().ForMember(dest=>dest.UserName, opt => opt.MapFrom(src => src.User.Username));
             CreateMap<AnnouncementDataDto, Announcement>().ForMember(dest => dest.Date, opt => opt.MapFrom(src => DateTime.Now));
+            CreateMap<LinkAddDataDto, Domain>().ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
 
         }
     }

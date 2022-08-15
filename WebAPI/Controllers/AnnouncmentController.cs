@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
 using Business.DataTransferObject;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,7 @@ namespace WebAPI.Controllers
         }
 
 
+       
         [HttpPost("save")]
         public IActionResult Save([FromBody] AnnouncementDataDto announcementData)
         {
@@ -38,7 +40,7 @@ namespace WebAPI.Controllers
         }
 
 
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("getAllAnnouncement")]
         public IActionResult GetAll()
         {

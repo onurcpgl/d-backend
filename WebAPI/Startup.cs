@@ -9,6 +9,8 @@ using DataAccess.Abstract;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.EntityFramework.Contexts;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,6 +20,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using WebAPI.Helper;
+using WebAPI.WinAuthentication;
 
 namespace WebAPI
 {
@@ -55,6 +58,14 @@ namespace WebAPI
             services.AddCors(options =>
              options.AddDefaultPolicy(builder =>
              builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
+            services.AddSingleton<IClaimsTransformation, ClaimsTransformer>();
+            services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
+            .AddNegotiate();
+
+            services.AddAuthorization(options =>
+            {
+                options.FallbackPolicy = options.DefaultPolicy;
+            });
 
 
 
@@ -80,7 +91,9 @@ namespace WebAPI
             app.UseCors();
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {

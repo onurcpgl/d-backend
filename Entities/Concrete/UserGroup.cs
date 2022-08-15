@@ -16,7 +16,5 @@ namespace Entities.Concrete
         public string Name { get; set; }
         public ICollection<Domain> Domains{ get; set; }
         public ICollection<User> User { get; set; }
-
-       
     }
 }

@@ -17,6 +17,7 @@ namespace Business.Concrete
         private IMapper _mapper;
         private IUserDal _userDal;
 
+
         public AnnouncementsManager(IAnnouncementsDal announcementsDal, IMapper mapper, IUserDal userDal)
         {
             _announcementsDal = announcementsDal;

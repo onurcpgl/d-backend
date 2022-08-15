@@ -7,6 +7,7 @@ using Business.DataTransferObject;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -14,9 +15,11 @@ namespace WebAPI.Controllers
     public class UserController : ControllerBase
     {
         private IUserService _userService;
+        
         public UserController(IUserService userService)
         {
             _userService = userService;
+            
         }
         [HttpPost("users")]
         public IActionResult save([FromBody] UserManagementDto userManagementDto)
@@ -35,11 +38,6 @@ namespace WebAPI.Controllers
         {
             return Ok(_userService.getAllUsers());
         }
-
-       
-
-
-
 
 
     }

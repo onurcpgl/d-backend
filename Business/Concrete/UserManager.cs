@@ -13,15 +13,17 @@ namespace Business.Concrete
 {
     public class UserManager : IUserService
     {
-        private IUserDal _userDal;
+        
         private IUserGroupDal _userGroupDal;
         private IMapper _mapper;
-
-        public UserManager(IUserDal userDal, IUserGroupDal userGroupDal, IMapper mapper)
+        private IUserDal _userDal;
+        private IDomainDal _domainDal;
+        public UserManager(IUserDal userDal, IUserGroupDal userGroupDal, IMapper mapper,IDomainDal domainDal)
         {
             _userDal = userDal;
             _userGroupDal = userGroupDal;
             _mapper = mapper;
+            _domainDal = domainDal;
         }
 
         public List<UserDataDto> getAllUsers()
@@ -36,7 +38,7 @@ namespace Business.Concrete
             return  _mapper.Map<UserDataDto>(user);
         }
 
-        
+      
 
         public void update(UserManagementDto userManagementDto)
         {
